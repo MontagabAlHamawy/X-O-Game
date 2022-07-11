@@ -14,7 +14,6 @@ function yt ( a, b , c )
 }
 function ytt ( a, b , c, d, e, j, g, h, i )
 {
-    title.innerHTML = `${ er[ a ] } winner`;
         document.getElementById( 'we' + a ).style.background = '#fff';
         document.getElementById( 'we' + b ).style.background = '#fff';
         document.getElementById( 'we' + c ).style.background = '#fff';
