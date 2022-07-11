@@ -55,6 +55,9 @@ function winner()
     if ( er[ 1 ] != '' && er[ 2 ] != '' && er[ 3 ] != '' && er[ 4 ] != '' && er[ 5 ] != '' && er[ 6 ] != '' && er[ 7 ] != '' && er[ 8 ] != '' && er[ 9 ] != '' && f === 0 )
     {
         title.innerHTML = 'Equal';
+        yt(1, 2, 3 );
+        yt(4, 5, 6 );
+        yt(7, 8, 9 );
         setInterval( function () { title.innerHTML += '.' }, 1000 );
         setTimeout( function () { location.reload() },3000 );
     }
